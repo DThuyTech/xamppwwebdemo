@@ -1,0 +1,594 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: iFolders\n"
+"POT-Creation-Date: 2023-06-08 20:07+0300\n"
+"PO-Revision-Date: 2022-11-15 11:00+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ifolders.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/App.php:282
+#, php-format
+msgid ""
+"Thanks for start using the iFolders plugin. Let's create first folders. %s"
+msgstr ""
+
+#: includes/App.php:283
+msgid "Go to WordPress Media Library."
+msgstr ""
+
+#: includes/App.php:343 includes/App.php:2181 includes/App.php:2196
+msgid "The operation completed successfully"
+msgstr ""
+
+#: includes/App.php:344 includes/App.php:2184 includes/App.php:2199
+msgid "The operation failed"
+msgstr ""
+
+#: includes/App.php:345
+msgid "Upgrade to PRO and unlock all features"
+msgstr ""
+
+#: includes/App.php:349
+msgid "The license is already registered for other domain"
+msgstr ""
+
+#: includes/App.php:350
+msgid "Failed to connect to license server"
+msgstr ""
+
+#: includes/App.php:351
+msgid "The personal token is invalid or has been deleted"
+msgstr ""
+
+#: includes/App.php:352
+msgid ""
+"The personal token is missing the required permission for license server"
+msgstr ""
+
+#: includes/App.php:353
+msgid "Invalid purchase code"
+msgstr ""
+
+#: includes/App.php:354
+msgid "Something goes wrong, try again shortly"
+msgstr ""
+
+#: includes/App.php:355
+msgid "Parsing error, try again shortly"
+msgstr ""
+
+#: includes/App.php:356
+msgid "Error updating license data"
+msgstr ""
+
+#: includes/App.php:983
+msgid "Color"
+msgstr ""
+
+#: includes/App.php:989
+msgid "Rename"
+msgstr ""
+
+#: includes/App.php:995 templates/modal-group.php:43 templates/sidebar.php:84
+msgid "Delete"
+msgstr ""
+
+#: includes/App.php:1146
+msgid "You do not have permissions to move folders"
+msgstr ""
+
+#: includes/App.php:1300
+msgid "You do not have permissions to attach items to a folder"
+msgstr ""
+
+#: includes/App.php:2001
+msgid "Cannot create: item with the same folder type already exists."
+msgstr ""
+
+#: includes/App.php:2064
+msgid "Cannot update: item with the same folder type already exists."
+msgstr ""
+
+#: templates/feedback.php:6
+msgid "I do not need this plugin anymore"
+msgstr ""
+
+#: templates/feedback.php:9
+msgid "I found another plugin that do the job better"
+msgstr ""
+
+#: templates/feedback.php:10
+msgid "Please tell us which one"
+msgstr ""
+
+#: templates/feedback.php:13
+msgid "I don't know how to use it"
+msgstr ""
+
+#: templates/feedback.php:16
+msgid "This's temporary deactivation"
+msgstr ""
+
+#: templates/feedback.php:19
+msgid "It's not working on my website"
+msgstr ""
+
+#: templates/feedback.php:22
+msgid "Other"
+msgstr ""
+
+#: templates/feedback.php:23
+msgid "Please share a reason..."
+msgstr ""
+
+#: templates/feedback.php:30
+msgid "Quick Feedback"
+msgstr ""
+
+#: templates/feedback.php:34
+msgid ""
+"Before you deactivate iFolders could you let us know why? Your feedback will "
+"help us improve the product, please tell us why did you decide to deactivate "
+"iFolders. Thank you!"
+msgstr ""
+
+#: templates/feedback.php:50
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: templates/feedback.php:51
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: templates/modal-confirm-delete.php:7
+msgid "Confirm"
+msgstr ""
+
+#: templates/modal-confirm-delete.php:12
+msgid "Are you sure you want to delete {{Modal.data.count}} items?"
+msgstr ""
+
+#: templates/modal-confirm-delete.php:15 templates/modal-foldertype.php:61
+#: templates/modal-group.php:71 templates/modal-groups.php:49
+#: templates/modal-posttypes.php:26 templates/modal-users.php:51
+#: templates/sidebar.php:44 templates/sidebar.php:65 templates/sidebar.php:83
+msgid "Cancel"
+msgstr ""
+
+#: templates/modal-confirm-delete.php:16
+msgid "Ok"
+msgstr ""
+
+#: templates/modal-foldertype.php:7 templates/settings.php:290
+msgid "Folder Type"
+msgstr ""
+
+#: templates/modal-foldertype.php:13
+msgid "Title"
+msgstr ""
+
+#: templates/modal-foldertype.php:16 templates/modal-group.php:16
+#: templates/settings.php:131 templates/settings.php:192
+msgid "Enabled"
+msgstr ""
+
+#: templates/modal-foldertype.php:19
+msgid ""
+"To enable the folder manager for a custom post type, enter its identifier "
+"below."
+msgstr ""
+
+#: templates/modal-foldertype.php:21
+msgid "Custom Post Type"
+msgstr ""
+
+#: templates/modal-foldertype.php:23 templates/modal-groups.php:50
+msgid "Select"
+msgstr ""
+
+#: templates/modal-foldertype.php:27
+msgid "Add or delete a group for access to this folder type"
+msgstr ""
+
+#: templates/modal-foldertype.php:30
+msgid "Add groups"
+msgstr ""
+
+#: templates/modal-foldertype.php:33
+msgid "Delete selected groups"
+msgstr ""
+
+#: templates/modal-foldertype.php:44 templates/modal-groups.php:33
+#: templates/settings.php:130
+msgid "Group Name"
+msgstr ""
+
+#: templates/modal-foldertype.php:62 templates/modal-group.php:72
+#: templates/settings.php:88 templates/sidebar.php:66
+msgid "Save"
+msgstr ""
+
+#: templates/modal-group.php:7
+msgid "User Group"
+msgstr ""
+
+#: templates/modal-group.php:13
+msgid "Group name"
+msgstr ""
+
+#: templates/modal-group.php:20
+msgid "Shared (users of this group will see each other's folders)"
+msgstr ""
+
+#: templates/modal-group.php:22
+msgid "Add a user to the group and set rights."
+msgstr ""
+
+#: templates/modal-group.php:25
+msgid "Add user"
+msgstr ""
+
+#: templates/modal-group.php:28
+msgid "Delete selected users"
+msgstr ""
+
+#: templates/modal-group.php:39 templates/modal-users.php:35
+#: templates/settings.php:234
+msgid "User"
+msgstr ""
+
+#: templates/modal-group.php:40 templates/sidebar.php:45
+msgid "Create"
+msgstr ""
+
+#: templates/modal-group.php:41
+msgid "View"
+msgstr ""
+
+#: templates/modal-group.php:42
+msgid "Edit"
+msgstr ""
+
+#: templates/modal-group.php:44
+msgid "Attach"
+msgstr ""
+
+#: templates/modal-groups.php:7
+msgid "Groups"
+msgstr ""
+
+#: templates/modal-posttypes.php:7
+msgid "Post Types"
+msgstr ""
+
+#: templates/modal-posttypes.php:27 templates/modal-users.php:52
+msgid "Submit"
+msgstr ""
+
+#: templates/modal-users.php:7
+msgid "Users"
+msgstr ""
+
+#: templates/promo.php:17
+msgid "Thanks for using our plugin!"
+msgstr ""
+
+#: templates/promo.php:18
+msgid "Please rate iFolders"
+msgstr ""
+
+#: templates/promo.php:22
+msgid ""
+"Get started with the free version of our plugin, which includes full access "
+"for selected users to organize your WordPress Pages list and Media library. "
+"For even more functionality, get the full power with the Pro version! "
+"Upgrade today and take your website to the next level!"
+msgstr ""
+
+#: templates/promo.php:24 templates/stub.php:7
+msgid "Buy Now"
+msgstr ""
+
+#: templates/settings.php:8
+msgid "iFolders Settings"
+msgstr ""
+
+#: templates/settings.php:12
+msgid "General"
+msgstr ""
+
+#: templates/settings.php:13
+msgid "Permissions"
+msgstr ""
+
+#: templates/settings.php:14
+msgid "Data"
+msgstr ""
+
+#: templates/settings.php:19
+msgid "Plugin Options"
+msgstr ""
+
+#: templates/settings.php:20
+msgid "Use this section to set main plugin options."
+msgstr ""
+
+#: templates/settings.php:24
+msgid "Purchase Code"
+msgstr ""
+
+#: templates/settings.php:29
+msgid "Activate License"
+msgstr ""
+
+#: templates/settings.php:30
+msgid "Deactivate License"
+msgstr ""
+
+#: templates/settings.php:44
+msgid "The license is active and valid for this domain"
+msgstr ""
+
+#: templates/settings.php:60
+msgid "Access roles"
+msgstr ""
+
+#: templates/settings.php:62
+msgid "Only selected user roles have access to the folders"
+msgstr ""
+
+#: templates/settings.php:67
+msgid "Default folder color"
+msgstr ""
+
+#: templates/settings.php:73
+msgid "Disable folder counter"
+msgstr ""
+
+#: templates/settings.php:75
+msgid "disable showing number of items in each folder"
+msgstr ""
+
+#: templates/settings.php:79
+msgid "Disable ajax refresh"
+msgstr ""
+
+#: templates/settings.php:81
+msgid "disable ajax refresh in list view"
+msgstr ""
+
+#: templates/settings.php:82
+msgid ""
+"(set when you experience problems using plugins alongside iFolders that "
+"alter the media library list view)"
+msgstr ""
+
+#: templates/settings.php:97
+msgid "User Groups"
+msgstr ""
+
+#: templates/settings.php:98
+msgid ""
+"Use this section to create and manage user groups. Within a group, you can "
+"set permissions for each user to work with folders (create, view, edit, "
+"delete, and attach)."
+msgstr ""
+
+#: templates/settings.php:101
+msgid "Add user group"
+msgstr ""
+
+#: templates/settings.php:104
+msgid "Edit user group"
+msgstr ""
+
+#: templates/settings.php:107
+msgid "Delete selected user groups"
+msgstr ""
+
+#: templates/settings.php:121 templates/settings.php:181
+#: templates/settings.php:226 templates/settings.php:278
+msgid "Refresh"
+msgstr ""
+
+#: templates/settings.php:132
+msgid "Shared"
+msgstr ""
+
+#: templates/settings.php:133 templates/settings.php:292
+msgid "Created"
+msgstr ""
+
+#: templates/settings.php:134 templates/settings.php:293
+msgid "Modified"
+msgstr ""
+
+#: templates/settings.php:157
+msgid "Folder Types"
+msgstr ""
+
+#: templates/settings.php:158
+msgid ""
+"This section presents the types of folders (media, pages, posts, etc.) "
+"supported by the plugin. In order for a user to access these folders, you "
+"must add a group in which that user will have the specified rights. Simply "
+"double-click on the folder type and add the selected group. After this "
+"action the users of this group will have access to this folder type depends "
+"on their rights."
+msgstr ""
+
+#: templates/settings.php:161
+msgid "Add folder type"
+msgstr ""
+
+#: templates/settings.php:164
+msgid "Edit folder type"
+msgstr ""
+
+#: templates/settings.php:167
+msgid "Delete selected folder types"
+msgstr ""
+
+#: templates/settings.php:190
+msgid "Folder Type Name"
+msgstr ""
+
+#: templates/settings.php:191
+msgid "Attached Groups"
+msgstr ""
+
+#: templates/settings.php:211
+msgid "Users Info"
+msgstr ""
+
+#: templates/settings.php:212
+msgid ""
+"This section shows brief information on users and their access to folders."
+msgstr ""
+
+#: templates/settings.php:235
+msgid "Access To"
+msgstr ""
+
+#: templates/settings.php:258
+msgid "All Folders"
+msgstr ""
+
+#: templates/settings.php:259
+msgid ""
+"Use this section to view all existed folders and delete them if it's needed, "
+"all sub folders are also will be deleted."
+msgstr ""
+
+#: templates/settings.php:260
+msgid "Loading data..."
+msgstr ""
+
+#: templates/settings.php:287
+msgid "Folder Title"
+msgstr ""
+
+#: templates/settings.php:288
+msgid "Owner"
+msgstr ""
+
+#: templates/settings.php:289
+msgid "Group"
+msgstr ""
+
+#: templates/settings.php:291
+msgid "Attachments"
+msgstr ""
+
+#: templates/settings.php:314
+msgid "Delete All Folders"
+msgstr ""
+
+#: templates/sidebar.php:6
+msgid "create folder"
+msgstr ""
+
+#: templates/sidebar.php:13
+msgid "sort folder items"
+msgstr ""
+
+#: templates/sidebar.php:22
+msgid ""
+"Click the \"Create\" button above to add your first folder, then start drag "
+"& drop items."
+msgstr ""
+
+#: templates/sidebar.php:27
+msgid "Add New Folders"
+msgstr ""
+
+#: templates/sidebar.php:51
+msgid "Edit Folder"
+msgstr ""
+
+#: templates/sidebar.php:72
+msgid "Delete Folders"
+msgstr ""
+
+#: templates/sidebar.php:80
+msgid ""
+"Are you sure you want to delete selected folders and all sub folders? Items "
+"in the folder will not be deleted."
+msgstr ""
+
+#: templates/sidebar.php:90
+msgid "Sort Folder Items"
+msgstr ""
+
+#: templates/sidebar.php:100
+msgid "By Name"
+msgstr ""
+
+#: templates/sidebar.php:107
+msgid "By Date"
+msgstr ""
+
+#: templates/sidebar.php:114
+msgid "By Modified"
+msgstr ""
+
+#: templates/sidebar.php:121
+msgid "By Author"
+msgstr ""
+
+#: templates/sidebar.php:142
+msgid "All items"
+msgstr ""
+
+#: templates/sidebar.php:154
+msgid "Uncategorized"
+msgstr ""
+
+#: templates/sidebar.php:161
+msgid "Enter folder name..."
+msgstr ""
+
+#: templates/stub.php:5
+msgid ""
+"The folder tree feature is not available in the free version of the plugin. "
+"To access this feature and even more functionality, you will need to "
+"purchase the pro version."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "iFolders"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://1.envato.market/getifolders"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A better way to organize WordPress media library, posts, pages, users & "
+"custom post types in a logical way. Just drag & drop items into folders you "
+"and use them easely."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Avirtum"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://1.envato.market/avirtum"
+msgstr ""

@@ -1,0 +1,1 @@
+!function(i){"use strict";const t=ifolders_admin_globals;t&&i(document).on("click","#ifolders-first-use-notification .notice-dismiss",()=>{var a=JSON.stringify({target:"dismiss-first-use-notification"});i.ajax({url:t.ajax.url,type:"POST",data:{nonce:t.ajax.nonce,action:t.ajax.actions.update_data,data:a}})})}(jQuery);

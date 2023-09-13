@@ -1,0 +1,11 @@
+.customize-control-label{
+    background: #fff;
+    padding: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.customize-control-label span{
+    margin-bottom: 0;
+}

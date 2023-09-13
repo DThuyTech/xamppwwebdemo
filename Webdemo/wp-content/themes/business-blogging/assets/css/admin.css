@@ -1,0 +1,18 @@
+.smarterthemes.notice-info .notice-wrapper .notice-text { 
+    position: relative;
+     padding: 10px 0;
+ }
+ 
+ .smarterthemes.notice-info .notice-wrapper p.dismiss-link {
+     position: absolute;
+     top: 0;
+     right: 0;
+     margin: 0;
+     padding: 20px;
+ }
+ .smarterthemes.notice-info .notice-wrapper .notice-text .button-primary {
+     padding: 10px 30px !important;
+     font-size: 14px !important;
+     font-weight: 500;
+     margin-top: 10px !important;
+ }

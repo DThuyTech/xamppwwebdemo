@@ -1,0 +1,630 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iFolders\n"
+"POT-Creation-Date: 2023-06-08 20:07+0300\n"
+"PO-Revision-Date: 2023-07-15 18:57+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ifolders.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: tr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/App.php:282
+#, php-format
+msgid ""
+"Thanks for start using the iFolders plugin. Let's create first folders. %s"
+msgstr ""
+"iFolders eklentisini kullanmaya başladığınız için teşekkür ederiz. İlk "
+"klasörleri oluşturalım. %s"
+
+#: includes/App.php:283
+msgid "Go to WordPress Media Library."
+msgstr "WordPress Medya Kitaplığı'na gidin."
+
+#: includes/App.php:343 includes/App.php:2181 includes/App.php:2196
+msgid "The operation completed successfully"
+msgstr "İşlem başarıyla tamamlandı"
+
+#: includes/App.php:344 includes/App.php:2184 includes/App.php:2199
+msgid "The operation failed"
+msgstr "İşlem başarısız"
+
+#: includes/App.php:345
+msgid "Upgrade to PRO and unlock all features"
+msgstr "PRO'ya yükseltin ve tüm özelliklerin kilidini açın"
+
+#: includes/App.php:349
+msgid "The license is already registered for other domain"
+msgstr "Lisans diğer etki alanı için zaten kayıtlı"
+
+#: includes/App.php:350
+msgid "Failed to connect to license server"
+msgstr "Lisans sunucusuna bağlanılamadı"
+
+#: includes/App.php:351
+msgid "The personal token is invalid or has been deleted"
+msgstr "Kişisel belirteç geçersiz veya silinmiş"
+
+#: includes/App.php:352
+msgid ""
+"The personal token is missing the required permission for license server"
+msgstr "Kişisel belirteçte lisans sunucusu için gerekli izin eksik"
+
+#: includes/App.php:353
+msgid "Invalid purchase code"
+msgstr "Geçersiz satın alma kodu"
+
+#: includes/App.php:354
+msgid "Something goes wrong, try again shortly"
+msgstr "Bir şeyler ters gidiyor, kısa bir süre sonra tekrar deneyin"
+
+#: includes/App.php:355
+msgid "Parsing error, try again shortly"
+msgstr "Ayrıştırma hatası, kısa bir süre sonra yeniden deneyin"
+
+#: includes/App.php:356
+msgid "Error updating license data"
+msgstr "Lisans verileri güncelleştirilirken hata oluştu"
+
+#: includes/App.php:983
+msgid "Color"
+msgstr "Renk"
+
+#: includes/App.php:989
+msgid "Rename"
+msgstr "Yeniden Adlandır"
+
+#: includes/App.php:995 templates/modal-group.php:43 templates/sidebar.php:84
+msgid "Delete"
+msgstr "Sil"
+
+#: includes/App.php:1146
+msgid "You do not have permissions to move folders"
+msgstr "Klasörleri taşıma izniniz yok"
+
+#: includes/App.php:1300
+msgid "You do not have permissions to attach items to a folder"
+msgstr "Bir klasöre öğe ekleme izniniz yok"
+
+#: includes/App.php:2001
+msgid "Cannot create: item with the same folder type already exists."
+msgstr "Oluşturulamıyor: aynı klasör türüne sahip öğe zaten var."
+
+#: includes/App.php:2064
+msgid "Cannot update: item with the same folder type already exists."
+msgstr "Güncellenemiyor: aynı klasör türüne sahip öğe zaten var."
+
+#: templates/feedback.php:6
+msgid "I do not need this plugin anymore"
+msgstr "Artık bu eklentiye ihtiyacım yok"
+
+#: templates/feedback.php:9
+msgid "I found another plugin that do the job better"
+msgstr "İşi daha iyi yapan başka bir eklenti buldum"
+
+#: templates/feedback.php:10
+msgid "Please tell us which one"
+msgstr "Lütfen hangisi olduğunu bize söyleyin"
+
+#: templates/feedback.php:13
+msgid "I don't know how to use it"
+msgstr "Nasıl kullanacağımı bilmiyorum"
+
+#: templates/feedback.php:16
+msgid "This's temporary deactivation"
+msgstr "Bu, geçici olarak devre dışı bırakılır"
+
+#: templates/feedback.php:19
+msgid "It's not working on my website"
+msgstr "Web sitemde çalışmıyor"
+
+#: templates/feedback.php:22
+msgid "Other"
+msgstr "Diğer"
+
+#: templates/feedback.php:23
+msgid "Please share a reason..."
+msgstr "Lütfen bir sebep paylaşın..."
+
+#: templates/feedback.php:30
+msgid "Quick Feedback"
+msgstr "Hızlı geribildirim"
+
+#: templates/feedback.php:34
+msgid ""
+"Before you deactivate iFolders could you let us know why? Your feedback will "
+"help us improve the product, please tell us why did you decide to deactivate "
+"iFolders. Thank you!"
+msgstr ""
+"iFolders'ı devre dışı bırakmadan önce nedenini bize bildirebilir misiniz? "
+"Geri bildiriminiz ürünü geliştirmemize yardımcı olacaktır, lütfen neden "
+"iFolders'ı devre dışı bırakmaya karar verdiğinizi bize bildirin. Teşekkürler!"
+
+#: templates/feedback.php:50
+msgid "Skip & Deactivate"
+msgstr "Atla ve Devre Dışı Bırak"
+
+#: templates/feedback.php:51
+msgid "Submit & Deactivate"
+msgstr "Gönder & Devre Dışı Bırak"
+
+#: templates/modal-confirm-delete.php:7
+msgid "Confirm"
+msgstr "Onayla"
+
+#: templates/modal-confirm-delete.php:12
+msgid "Are you sure you want to delete {{Modal.data.count}} items?"
+msgstr "{{Modal.data.count}} öğelerini silmek istediğinizden emin misiniz?"
+
+#: templates/modal-confirm-delete.php:15 templates/modal-foldertype.php:61
+#: templates/modal-group.php:71 templates/modal-groups.php:49
+#: templates/modal-posttypes.php:26 templates/modal-users.php:51
+#: templates/sidebar.php:44 templates/sidebar.php:65 templates/sidebar.php:83
+msgid "Cancel"
+msgstr "İptal"
+
+#: templates/modal-confirm-delete.php:16
+msgid "Ok"
+msgstr "Tamam"
+
+#: templates/modal-foldertype.php:7 templates/settings.php:290
+msgid "Folder Type"
+msgstr "Klasör Türü"
+
+#: templates/modal-foldertype.php:13
+msgid "Title"
+msgstr "Başlık"
+
+#: templates/modal-foldertype.php:16 templates/modal-group.php:16
+#: templates/settings.php:131 templates/settings.php:192
+msgid "Enabled"
+msgstr "Etkin"
+
+#: templates/modal-foldertype.php:19
+msgid ""
+"To enable the folder manager for a custom post type, enter its identifier "
+"below."
+msgstr ""
+"Özel bir gönderi türü için klasör yöneticisini etkinleştirmek üzere "
+"tanımlayıcısını aşağıya girin."
+
+#: templates/modal-foldertype.php:21
+msgid "Custom Post Type"
+msgstr "Özel Gönderi Türü"
+
+#: templates/modal-foldertype.php:23 templates/modal-groups.php:50
+msgid "Select"
+msgstr "Seç"
+
+#: templates/modal-foldertype.php:27
+msgid "Add or delete a group for access to this folder type"
+msgstr "Bu klasör türüne erişim için grup ekleme veya silme"
+
+#: templates/modal-foldertype.php:30
+msgid "Add groups"
+msgstr "Grup ekleme"
+
+#: templates/modal-foldertype.php:33
+msgid "Delete selected groups"
+msgstr "Seçili grupları silme"
+
+#: templates/modal-foldertype.php:44 templates/modal-groups.php:33
+#: templates/settings.php:130
+msgid "Group Name"
+msgstr "Grup Adı"
+
+#: templates/modal-foldertype.php:62 templates/modal-group.php:72
+#: templates/settings.php:88 templates/sidebar.php:66
+msgid "Save"
+msgstr "Kaydet"
+
+#: templates/modal-group.php:7
+msgid "User Group"
+msgstr "Kullanıcı Grubu"
+
+#: templates/modal-group.php:13
+msgid "Group name"
+msgstr "Grup Adı"
+
+#: templates/modal-group.php:20
+msgid "Shared (users of this group will see each other's folders)"
+msgstr "Paylaşılan (bu grubun kullanıcıları birbirlerinin klasörlerini görür)"
+
+#: templates/modal-group.php:22
+msgid "Add a user to the group and set rights."
+msgstr "Gruba bir kullanıcı ekleyin ve hakları ayarlayın."
+
+#: templates/modal-group.php:25
+msgid "Add user"
+msgstr "Kullanıcı Ekle"
+
+#: templates/modal-group.php:28
+msgid "Delete selected users"
+msgstr "Seçili kullanıcıyı sil"
+
+#: templates/modal-group.php:39 templates/modal-users.php:35
+#: templates/settings.php:234
+msgid "User"
+msgstr "Kullanıcı"
+
+#: templates/modal-group.php:40 templates/sidebar.php:45
+msgid "Create"
+msgstr "Oluştur"
+
+#: templates/modal-group.php:41
+msgid "View"
+msgstr "Görünüm"
+
+#: templates/modal-group.php:42
+msgid "Edit"
+msgstr "Düzenle"
+
+#: templates/modal-group.php:44
+msgid "Attach"
+msgstr "Eklenti"
+
+#: templates/modal-groups.php:7
+msgid "Groups"
+msgstr "Gruplar"
+
+#: templates/modal-posttypes.php:7
+msgid "Post Types"
+msgstr "İçerik Türleri"
+
+#: templates/modal-posttypes.php:27 templates/modal-users.php:52
+msgid "Submit"
+msgstr "Gönder"
+
+#: templates/modal-users.php:7
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: templates/promo.php:17
+msgid "Thanks for using our plugin!"
+msgstr "Eklentimizi kullandığınız için teşekkür ederiz!"
+
+#: templates/promo.php:18
+msgid "Please rate iFolders"
+msgstr "Lütfen iFolders'ı derecelendirin"
+
+#: templates/promo.php:22
+msgid ""
+"Get started with the free version of our plugin, which includes full access "
+"for selected users to organize your WordPress Pages list and Media library. "
+"For even more functionality, get the full power with the Pro version! "
+"Upgrade today and take your website to the next level!"
+msgstr ""
+"Seçilen kullanıcıların WordPress Sayfalar listenizi ve Medya kitaplığınızı "
+"düzenlemeleri için tam erişim içeren eklentimizin ücretsiz sürümünü "
+"kullanmaya başlayın. Daha da fazla işlevsellik için, Pro sürümü ile tam güce "
+"sahip olun! Bugün yükseltin ve web sitenizi bir sonraki seviyeye taşıyın!"
+
+#: templates/promo.php:24 templates/stub.php:7
+msgid "Buy Now"
+msgstr "Satın Al"
+
+#: templates/settings.php:8
+msgid "iFolders Settings"
+msgstr "iFolders Ayarları"
+
+#: templates/settings.php:12
+msgid "General"
+msgstr "Genel"
+
+#: templates/settings.php:13
+msgid "Permissions"
+msgstr "İzinler"
+
+#: templates/settings.php:14
+msgid "Data"
+msgstr "Veri"
+
+#: templates/settings.php:19
+msgid "Plugin Options"
+msgstr "Eklenti Ayarları"
+
+#: templates/settings.php:20
+msgid "Use this section to set main plugin options."
+msgstr "Ana eklenti seçeneklerini ayarlamak için bu bölümü kullanın."
+
+#: templates/settings.php:24
+msgid "Purchase Code"
+msgstr "Satın Alma Kodu"
+
+#: templates/settings.php:29
+msgid "Activate License"
+msgstr "Lisansı Etkinleştir"
+
+#: templates/settings.php:30
+msgid "Deactivate License"
+msgstr "Lisansı Devre Dışı Bırak"
+
+#: templates/settings.php:44
+msgid "The license is active and valid for this domain"
+msgstr "Lisans bu etki alanı için etkin ve geçerlidir"
+
+#: templates/settings.php:60
+msgid "Access roles"
+msgstr "Erişim rolleri"
+
+#: templates/settings.php:62
+msgid "Only selected user roles have access to the folders"
+msgstr "Yalnızca seçilen kullanıcı rollerinin klasörlere erişimi vardır"
+
+#: templates/settings.php:67
+msgid "Default folder color"
+msgstr "Varsayılan klasör rengi"
+
+#: templates/settings.php:73
+msgid "Disable folder counter"
+msgstr "Klasör sayacını devre dışı bırak"
+
+#: templates/settings.php:75
+msgid "disable showing number of items in each folder"
+msgstr "Her klasördeki öğe sayısının gösterilmesini devre dışı bırak"
+
+#: templates/settings.php:79
+msgid "Disable ajax refresh"
+msgstr "Ajax yenilemeyi devre dışı bırak"
+
+#: templates/settings.php:81
+msgid "disable ajax refresh in list view"
+msgstr "Liste görünümünde Ajax yenilemesini devre dışı bırakma"
+
+#: templates/settings.php:82
+msgid ""
+"(set when you experience problems using plugins alongside iFolders that "
+"alter the media library list view)"
+msgstr ""
+"(ortam kitaplığı liste görünümünü değiştiren iFolder'ların yanı sıra "
+"eklentileri kullanırken sorun yaşadığınızda ayarlanır)"
+
+#: templates/settings.php:97
+msgid "User Groups"
+msgstr "Kullanıcı Grupları"
+
+#: templates/settings.php:98
+msgid ""
+"Use this section to create and manage user groups. Within a group, you can "
+"set permissions for each user to work with folders (create, view, edit, "
+"delete, and attach)."
+msgstr ""
+"Kullanıcı grupları oluşturmak ve yönetmek için bu bölümü kullanın. Bir grup "
+"içinde, her kullanıcının klasörlerle çalışma izinlerini ayarlayabilirsiniz "
+"(oluşturma, görüntüleme, düzenleme, silme ve ekleme)."
+
+#: templates/settings.php:101
+msgid "Add user group"
+msgstr "Kullanıcı grubu ekle"
+
+#: templates/settings.php:104
+msgid "Edit user group"
+msgstr "Kullanıcı grubunu düzenleme"
+
+#: templates/settings.php:107
+msgid "Delete selected user groups"
+msgstr "Seçili kullanıcı gruplarını silme"
+
+#: templates/settings.php:121 templates/settings.php:181
+#: templates/settings.php:226 templates/settings.php:278
+msgid "Refresh"
+msgstr "Yenile"
+
+#: templates/settings.php:132
+msgid "Shared"
+msgstr "Paylaşılan"
+
+#: templates/settings.php:133 templates/settings.php:292
+msgid "Created"
+msgstr "Oluşturuldu"
+
+#: templates/settings.php:134 templates/settings.php:293
+msgid "Modified"
+msgstr "Değiştirilmiş"
+
+#: templates/settings.php:157
+msgid "Folder Types"
+msgstr "Klasör Türleri"
+
+#: templates/settings.php:158
+msgid ""
+"This section presents the types of folders (media, pages, posts, etc.) "
+"supported by the plugin. In order for a user to access these folders, you "
+"must add a group in which that user will have the specified rights. Simply "
+"double-click on the folder type and add the selected group. After this "
+"action the users of this group will have access to this folder type depends "
+"on their rights."
+msgstr ""
+"Bu bölüm, eklenti tarafından desteklenen klasör türlerini (medya, sayfalar, "
+"yayınlar vb.) sunar. Bir kullanıcının bu klasörlere erişebilmesi için, o "
+"kullanıcının belirtilen haklara sahip olacağı bir grup eklemeniz gerekir. "
+"Sadece klasör türüne çift tıklayın ve seçilen grubu ekleyin. Bu eylemden "
+"sonra, bu grubun kullanıcılarının haklarına bağlı olarak bu klasör türüne "
+"erişimi olacaktır."
+
+#: templates/settings.php:161
+msgid "Add folder type"
+msgstr "Klasör türü ekleme"
+
+#: templates/settings.php:164
+msgid "Edit folder type"
+msgstr "Klasör türünü düzenle"
+
+#: templates/settings.php:167
+msgid "Delete selected folder types"
+msgstr "Seçili klasör türlerini silme"
+
+#: templates/settings.php:190
+msgid "Folder Type Name"
+msgstr "Klasör Türü Adı"
+
+#: templates/settings.php:191
+msgid "Attached Groups"
+msgstr "Ekli Gruplar"
+
+#: templates/settings.php:211
+msgid "Users Info"
+msgstr "Kullanıcı Bilgileri"
+
+#: templates/settings.php:212
+msgid ""
+"This section shows brief information on users and their access to folders."
+msgstr ""
+"Bu bölümde, kullanıcılar ve klasörlere erişimleri hakkında kısa bilgiler "
+"gösterilmektedir."
+
+#: templates/settings.php:235
+msgid "Access To"
+msgstr "Erişim"
+
+#: templates/settings.php:258
+msgid "All Folders"
+msgstr "Tüm klasörler"
+
+#: templates/settings.php:259
+msgid ""
+"Use this section to view all existed folders and delete them if it's needed, "
+"all sub folders are also will be deleted."
+msgstr ""
+"Mevcut tüm klasörleri görüntülemek ve gerekirse bunları silmek için bu "
+"bölümü kullanın, tüm alt klasörler de silinir."
+
+#: templates/settings.php:260
+msgid "Loading data..."
+msgstr "Veri yükleniyor"
+
+#: templates/settings.php:287
+msgid "Folder Title"
+msgstr "Klasör Başlığı"
+
+#: templates/settings.php:288
+msgid "Owner"
+msgstr "Sahibi"
+
+#: templates/settings.php:289
+msgid "Group"
+msgstr "Grup"
+
+#: templates/settings.php:291
+msgid "Attachments"
+msgstr "Ekler"
+
+#: templates/settings.php:314
+msgid "Delete All Folders"
+msgstr "Tüm Klasörleri Sil"
+
+#: templates/sidebar.php:6
+msgid "create folder"
+msgstr "klasör oluştur"
+
+#: templates/sidebar.php:13
+msgid "sort folder items"
+msgstr "Klasör öğelerini sıralama"
+
+#: templates/sidebar.php:22
+msgid ""
+"Click the \"Create\" button above to add your first folder, then start drag "
+"& drop items."
+msgstr ""
+"İlk klasörünüzü eklemek için yukarıdaki \"Oluştur\" düğmesini tıklayın, "
+"ardından öğeleri sürükleyip bırakmaya başlayın."
+
+#: templates/sidebar.php:27
+msgid "Add New Folders"
+msgstr "Yeni Klasörler Ekle"
+
+#: templates/sidebar.php:51
+msgid "Edit Folder"
+msgstr "Klasörü Düzenle"
+
+#: templates/sidebar.php:72
+msgid "Delete Folders"
+msgstr "Klasörleri Sil"
+
+#: templates/sidebar.php:80
+msgid ""
+"Are you sure you want to delete selected folders and all sub folders? Items "
+"in the folder will not be deleted."
+msgstr ""
+"Seçili klasörleri ve tüm alt klasörleri silmek istediğinizden emin misiniz? "
+"Klasördeki öğeler silinmez."
+
+#: templates/sidebar.php:90
+msgid "Sort Folder Items"
+msgstr "Klasör Öğelerini Sıralama"
+
+#: templates/sidebar.php:100
+msgid "By Name"
+msgstr "İsim"
+
+#: templates/sidebar.php:107
+msgid "By Date"
+msgstr "Tarihe Göre"
+
+#: templates/sidebar.php:114
+msgid "By Modified"
+msgstr "Modifiye Tarafından"
+
+#: templates/sidebar.php:121
+msgid "By Author"
+msgstr "Yazar Tarafından"
+
+#: templates/sidebar.php:142
+msgid "All items"
+msgstr "Tüm öğeler"
+
+#: templates/sidebar.php:154
+msgid "Uncategorized"
+msgstr "Kategorisiz"
+
+#: templates/sidebar.php:161
+msgid "Enter folder name..."
+msgstr "Klasör adını girin..."
+
+#: templates/stub.php:5
+msgid ""
+"The folder tree feature is not available in the free version of the plugin. "
+"To access this feature and even more functionality, you will need to "
+"purchase the pro version."
+msgstr ""
+"Klasör ağacı özelliği, eklentinin ücretsiz sürümünde mevcut değildir. Bu "
+"özelliğe ve hatta daha fazla işlevselliğe erişmek için pro sürümünü satın "
+"almanız gerekecektir."
+
+#. Plugin Name of the plugin/theme
+msgid "iFolders"
+msgstr "iFolders"
+
+#. Plugin URI of the plugin/theme
+msgid "https://1.envato.market/getifolders"
+msgstr "https://1.envato.market/getifolders"
+
+#. Description of the plugin/theme
+msgid ""
+"A better way to organize WordPress media library, posts, pages, users & "
+"custom post types in a logical way. Just drag & drop items into folders you "
+"and use them easely."
+msgstr ""
+"WordPress medya kitaplığını, yayınlarını, sayfalarını, kullanıcılarını ve "
+"özel yazı türlerini mantıklı bir şekilde düzenlemenin daha iyi bir yolu. "
+"Sadece öğeleri klasörlere sürükleyip bırakın ve kolayca kullanın."
+
+#. Author of the plugin/theme
+msgid "Avirtum"
+msgstr "Avirtum"
+
+#. Author URI of the plugin/theme
+msgid "https://1.envato.market/avirtum"
+msgstr "https://1.envato.market/avirtum"

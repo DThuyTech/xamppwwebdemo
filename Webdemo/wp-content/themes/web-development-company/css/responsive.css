@@ -1,0 +1,31 @@
+/* Mobile Portrait View */
+@media screen and (max-width:767px) {
+  .catwrapslider .owl-next{
+  	right: 82% !important;
+  }
+  .top_header .border-right{
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width:767px) and (max-width:999px){
+  .catwrapslider .owl-next{
+  	right: 88% !important;
+  }
+  .catwrapslider .owl-prev{
+  	right: 5%;
+  }
+}
+@media screen and (max-width: 1000px){
+  .slider-box{
+  	left: 15%;
+  	right: 15%;
+  }
+}
+@media screen and (min-width:1000px) and (max-width:1024px){
+  .header .search_box label {
+      width: 75%;
+  }
+  .slider-box{
+    right: 55%;
+  }
+}

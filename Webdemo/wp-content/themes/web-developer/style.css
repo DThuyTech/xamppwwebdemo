@@ -1,0 +1,759 @@
+/*
+Theme Name: Web Developer
+Theme URI: https://theclassictemplates.com/themes/free-web-developer-wordpress-theme/
+Author: classictemplate
+Author URI: https://www.theclassictemplates.com/
+Description: Web developer theme is designed to create websites for branding services, digital marketing, SEO services, Online Business, UI Design development, Creative Agency, illustrator, portfolio, Web Design, Web Development, Brand Management Services and similar websites. The theme has a professional and elegant design that gives an attractive look. It is based on bootstrap framework which makes it handy to use. It is SEO-friendly which will help your website get indexed soon on all major search engines like Google. It is translation-ready and supports RTL layout. You have the option to add shortcodes that will improve the functionality of your website. It offers a lot of customization and personalization options to help you showcase your services in a modern and stylish way. The responsive layout of the theme makes it mobile-friendly and looks perfect on any device. It is optimized for speed therefore it has faster page load times. Also, it is secure and cleanly coded. The social media option let’s you integrate all your social media pages to your credibility. The testimonial section will let your visitors comment on your services.
+Version: 0.4
+Tested up to: 6.2
+Requires PHP: 7.2
+Requires at least: 5.0
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: web-developer
+Tags: education, e-commerce, news, one-column, two-columns, right-sidebar, left-sidebar, custom-logo, footer-widgets, featured-images, full-width-template, custom-colors, editor-style, wide-blocks, block-styles, custom-header, custom-background, custom-menu, sticky-post, threaded-comments, theme-options, rtl-language-support
+
+Web Developer WordPress Theme has been created by classictemplate (theclassictemplates.com), 2021.
+Web Developer WordPress Theme is released under the terms of GNU GPL
+*/
+
+*{
+  margin:0;
+  padding:0;
+  outline:none;
+}
+body{
+  margin:0;
+  padding:0;
+  line-height:20px;
+  font-size:13px;
+  color:#9d9c9c;
+  font-family: 'Poppins', sans-serif;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+img{
+  border:none;
+  margin:0;
+  padding:0;
+  height:auto;
+  max-width:100%;
+}
+a{
+  text-decoration:none;
+  color: #0769d7;
+}
+a:hover{
+  color:#333;
+  text-decoration:none;
+}
+ol,ul{
+  margin:0;
+  padding:0;
+}
+.wp-caption,
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.aligncenter{
+  margin:0;
+  padding:0;
+  max-width:100% !important;
+}
+input:focus{
+  border: 2px solid #000;
+}
+.sticky{
+  background: #ededed;
+}
+.entry-content ol li,
+.entry-content ul li{
+  margin-left:15px;
+}
+a.rsswidget.rss-widget-title {
+  font-size: 9px;
+}
+ul li ul,
+ul li ul li ul,
+ol li ol, ol li ol li ol{
+  margin-left:10px;
+}
+h1,h2,h3,h4,h5,h6{
+  color:#000000;
+  line-height:1.1;
+  font-weight:600;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  font-size:32px;
+}
+h2{
+  font-size:30px;
+}
+h3{
+  font-size:24px;
+}
+h4{
+  font-size:20px;
+}
+h5{
+  font-size:18px;
+}
+h6{
+  font-size:14px;
+}
+.clear{
+  clear:both;
+}
+.alignnone{
+  width:100% !important;
+}
+img.alignleft, .alignleft{
+  float:left;
+  margin:0 15px 0 0;
+  padding:5px;
+  border:1px solid #cccccc;
+}
+img.alignright, .alignright{
+  float:right;
+  margin:0 0 0 15px;
+  padding:5px;
+  border:1px solid #cccccc;
+}
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+#comment-nav-above .nav-previous,
+#comment-nav-below .nav-previous{
+  float:none !important;
+  margin:10px 0;
+}
+ol.comment-list li{
+  list-style:none;
+  margin-bottom:5px;
+}
+.header .search_box label{
+  width: 80%;
+}
+#footer .search-form label, #sidebar .search-form label{
+  width: 100%;
+}
+.postsec-list .search-form input.search-submit{
+  background-color: #0769d7;
+  color: #fff;
+  border: 2px solid #0769d7;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+a:focus,input[type='submit']:focus,input[type='search']:focus,textarea:focus,input[type='name']:focus,input[type='email']:focus,.toggle-nav button:focus,a.close-button:focus,#commentform input#email:focus, #commentform input#url:focus,#commentform input#author:focus, #commentform textarea:focus, #commentform input#eazycfc_captcha:focus,.main-nav a:focus,.main-nav ul ul a:focus{
+	outline: -webkit-focus-ring-color auto 1px;
+}
+#sidebar .textwidget p a,.entry-content a,.entry-summary a,ol.comment-list p a, #footer .textwidget p a {
+  border-bottom: 1px solid;
+}
+
+/* = wide block css
+-------------------------------------- */
+.alignwide {
+  margin-left  : -80px;
+  margin-right : -80px;
+}
+.alignfull {
+  margin-left  : calc( -100vw / 2 + 100% / 2 );
+  margin-right : calc( -100vw / 2 + 100% / 2 );
+  max-width    : 100vw;
+}
+.alignfull img {
+  width: 100vw;
+}
+
+/* = pre loader css
+-------------------------------------- */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 999999;
+}
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url(images/status.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+}
+/*header css*/
+.sticky-head {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: 2px 2px 10px 0px #2d2d2d;
+}
+.admin-bar .sticky-head{
+  top: 32px;
+}
+/* = top header css
+-------------------------------------- */
+.logo {
+  padding: 10px 0;
+}
+h1.site-title, p.site-title{
+  font-size: 22px;
+  margin: 0;
+  text-transform: uppercase;
+}
+h1.site-title a,span.site-description, p.site-title a{
+  color: #000000;
+  font-weight: bold;
+}
+h1.site-title a:hover {
+  text-decoration: unset;
+}
+.listarticle h2 a:hover,
+#sidebar ul li a:hover,
+.ftr-4-box ul li a:hover,
+.ftr-4-box ul li.current_page_item a{
+  color: #0769d7;
+}
+.top_header{
+  padding: 20px;
+}
+.top_header i {
+  font-size: 28px;
+  color: #0769d7;
+}
+.top_header h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.top_header a, .top_header p {
+  font-size: 16px;
+  color: #000;
+}
+.center-align{
+  align-self: center;
+}
+.top_header .top-text{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.header .search_box label{
+  margin-bottom: 0;
+}
+/* = header css
+-------------------------------------- */
+.header {
+  background: #0769d7;
+}
+span.search_box form.search-form {
+  background: #fff;
+  border-radius: 30px;
+}
+span.search_box input.search-field {
+  border: none;
+  background: transparent;
+  padding: 15px 8px;
+}
+span.search_box input.search-submit {
+  padding: 10px 22px;
+  background: url(images/search.png) no-repeat scroll 10px 12px #0769d7;
+  text-indent: -9999px;
+  border: none;
+  border-radius: 30px;
+}
+.banner-btn a,.pagemore a,.serv-btn a,.woocommerce ul.products li.product .button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce a.button, .woocommerce button.button, .woocommerce #respond input#submit, #commentform input#submit {
+  background: #0769d7;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
+}
+.pagemore a:hover,.serv-btn a:hover,
+.woocommerce ul.products li.product .button:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+#commentform input#submit:hover {
+  background: #0769d7;
+  color: #fff;
+}
+
+/* = menus css
+-------------------------------------- */
+#mySidenav {
+  display: inline;
+}
+.main-nav ul{
+  margin: 0;
+  padding: 0;
+}
+.main-nav li{
+  display: inline-block;
+  position: relative;
+}
+.main-nav a {
+  color: #fff;
+  padding: 12px;
+  font-size: 15px;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.main-nav ul ul{
+  position: absolute;
+  background: #0769d7;
+  min-width: 250px;
+  z-index: 9999;
+  top: 90%;
+  line-height: 30px;
+  opacity: 0;
+  border-radius: 5px;
+}
+.main-nav ul ul ul{
+  left: 100%;
+  top: 0%;
+}
+.main-nav ul ul a{
+  color: #fff ;
+  border: none;
+  padding: 5px 10px ;
+  margin-top: 5px;
+}
+.main-nav ul ul li{
+  float: none;
+  display: block;
+  text-align: left;
+  border-left: none;
+  border-right: none !important;
+  padding: 0;
+  border-bottom: solid 1px #789ee2;
+}
+.main-nav ul li:hover > ul{
+  display: block;
+}
+.main-nav .menu > ul > li.highlight{
+  background-color: #006ccc;
+}
+.main-nav .menu > ul > li.highlight:hover{
+  background: transparent;
+}
+.main-nav ul li:hover > ul{
+  opacity: 1;
+}
+.main-nav li.menu-item-has-children:hover > ul, .main-nav li.menu-item-has-children:focus > ul, .main-nav li.menu-item-has-children.focus > ul{
+  opacity: 1;
+}
+.main-nav .menu-item-has-children:not(.off-canvas):hover > .sub-menu,
+.main-nav .menu-item-has-children:not(.off-canvas):focus > .sub-menu,
+.main-nav .menu-item-has-children.is-focused:not(.off-canvas) > .sub-menu,
+.main-nav .menu-item-has-children:not(.off-canvas)[focus-within] > .sub-menum,
+.main-nav .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu  {
+  opacity: 1;
+}
+.sf-arrows ul .sf-with-ul:after{
+  margin-top: -5px;
+  margin-right: -3px;
+  border-color: transparent;
+  border-left-color: #888;
+}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after{
+  border-left-color: #333;
+  opacity: 1;
+}
+.toggle-nav, a.close-button{
+  display: none;
+}
+
+/* = slider section css
+-------------------------------------- */
+#catsliderarea{
+  padding-bottom: 30px;
+}
+.slider-box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+  right: 60%;
+}
+.catwrapslider{
+  width:100%;
+  position:relative;
+  box-sizing:border-box;
+}
+.bg-opacity {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background: #000;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+.slidesection {
+  position: relative;
+  -webkit-mask-image: url('images/mask-design.png');
+  mask-image: url('images/mask-design.png');
+  -webkit-mask-position: center center;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  -webkit-mask-size: 105%;
+  height: 985px;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+}
+.catwrapslider .owl-controls{
+  position: absolute;
+  top: 50%;
+  right:auto;
+  left:auto;
+  width:100%;
+}
+.catwrapslider .owl-prev,
+.catwrapslider .owl-next {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  bottom:15px;
+  width:50px;
+  height:50px;
+  font-size:40px;
+  right:0;
+  background: transparent;
+  color: #fff;
+}
+.catwrapslider .owl-prev:hover,
+.catwrapslider .owl-next:hover{
+  background: #0769d7;
+}
+.catwrapslider .owl-prev{
+  left:10px;
+}
+.catwrapslider .owl-next{
+  right:10px;
+}
+button.owl-prev span,
+button.owl-next span{
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+}
+.owl-prev,
+.owl-next {
+  border: solid 2px #fff;
+  padding: 18px;
+  border-radius: 30px;
+}
+.catwrapslider{
+  height:auto;
+}
+.slider-box h1 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 600;
+}
+.slider-box p {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.slide-btn a {
+  color: #000000;
+  background: #fff;
+  border-radius: 30px;
+  padding: 12px 35px;
+  font-size: 18px;
+}
+.slide-btn a:hover {
+  background: #0769d7;
+  color: #fff;
+}
+
+/* = Services css
+-------------------------------------- */
+
+#serives_box h2 {
+  font-size: 45px;
+}
+p.main_text {
+  font-size: 20px;
+  color: #0769d7;
+}
+#serives_box hr{
+  width: 10%;
+  margin: 0 auto;
+  border-top: 2px solid #535353;
+}
+.services_inner_box img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+.services_inner_box h3{
+  font-size: 25px;
+}
+.services_inner_box h3 a{
+  color: #000000;
+}
+.services_inner_box p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000;
+}
+/*scroll to top*/
+#button{
+  background: #0769d7;
+  color: #fff;
+  cursor: pointer;
+  width: 60px;
+  text-align: center;
+  height: 60px;
+  padding-top: 22px;
+  position: fixed;
+  border-radius: 50%;
+  bottom: 60px;
+  right: 20px;
+  z-index: 9999;
+  -moz-border-radius: 0;
+  font-size: 15px;
+  display: none;
+}
+/* = Page lay out css
+-------------------------------------- */
+.postsec-list input.search-field,
+.postsec-list input.search-submit {
+  padding: 15px 10px;
+}
+.contentsecwrap{
+  padding:25px 0;
+  clear: both;
+}
+.contentsecwrap p{
+  margin-bottom:20px;
+}
+.listarticle,aside.widget{
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  border: solid #0769d7;
+}
+.listarticle h2 a{
+  color: #000000;
+}
+.single_title{
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.post-thumb{
+  margin:0 0 15px 0;
+}
+.nav-links .page-numbers{
+  padding:5px 10px;
+  color:#111;
+}
+select{ border:1px solid #ccc; width:100%;}
+
+/* = sidebar
+---------------------------------------------- */
+label{
+  margin-bottom: 0;
+}
+aside.widget ul{
+  list-style:none;
+}
+h3.widget-title{
+  padding:0 0 15px 0;
+  color:#000000;
+  border-bottom:1px solid #edecec;
+  font-size: 22px;
+}
+#sidebar ul li{
+  border-bottom:1px dashed #d0cfcf;
+  padding:8px 0;
+}
+#sidebar ul li a{
+  color:#6c6c6c;
+  display:inline-block;
+}
+#sidebar ul li:last-child{
+  border:none;
+}
+#sidebar.left{
+  float:left;
+}
+#sidebar table{
+  width:100%;
+  text-align:center;
+}
+#calendar_wrap caption{
+  font-weight:700;
+  padding-bottom:10px;
+  text-transform:uppercase;
+}
+#sidebar select {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: solid 2px #0769d7;
+}
+#sidebar input[type="text"],
+#sidebar input[type="search"],
+#footer input[type="search"]{
+  border: solid 2px #0769d7;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#sidebar input.search-submit,
+#footer input.search-submit,
+form.woocommerce-product-search button {
+  padding: 10px;
+  width: 100%;
+  border:none;
+  background: #0769d7;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+}
+#recentcomments li{
+  background-image:none !important;
+}
+#recentcomments li a{
+  padding-left:0px !important;
+}
+.textwidget select,table{
+  width:100%;
+}
+#sidebar .tagcloud a {
+  border: solid 2px #0769d7;
+  font-size: 12px !important;
+  margin: 2px 0;
+  display: inline-block;
+  color: #0769d7;
+  padding: 5px;
+}
+#footer .tagcloud a {
+  border: solid 2px #fff;
+  font-size: 12px !important;
+  margin: 2px 0;
+  display: inline-block;
+  color: #fff;
+  padding: 5px;
+}
+.tagcloud a:hover{
+  background-color: #0769d7;
+  color:#fff !important;
+  border: solid 2px #0769d7 !important;
+}
+/* = Footer css
+------------------------------------------- */
+#footer input.search-submit{
+  background: #0769d7;
+  color: #fff;
+}
+#footer{
+	background-color: #000000;
+	color: #ffffff;
+}
+.ftr-4-box{
+	width:21%;
+	float:left;
+	margin:0 4% 2% 0;
+	box-sizing:border-box;
+	padding:35px 0 15px;
+}
+.widget-column-4 {
+	margin-right:0px !important;
+}
+.ftr-4-box h5{
+	font-size:25px;
+	color:#fff;
+	margin-bottom:25px;
+	border-bottom:1px solid #303030;
+	padding-bottom:15px;
+}
+.ftr-4-box h5 span{
+	font-weight:300;
+	color: #0769d7;
+}
+.ftr-4-box ul{
+	margin:0;
+	padding:0;
+	list-style:inside disc;
+}
+.ftr-4-box ul li {
+	display:block;
+	padding:6px 0;
+	border-bottom:1px solid #303030;
+}
+.ftr-4-box ul li a,.ftr-4-box a.readmore span {
+	color:#ffffff;
+}
+.ftr-4-box p{
+	margin-bottom:15px;
+}
+.copywrap {
+	background-color: #0769d7;
+	color: #fff;
+  font-size: 18px;
+	padding:15px 0;
+}
+.copywrap a{
+  color: #fff;
+}
+.copywrap a:hover{
+  color: #000000;
+}

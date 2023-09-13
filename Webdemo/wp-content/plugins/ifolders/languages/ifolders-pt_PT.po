@@ -1,0 +1,688 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iFolders\n"
+"POT-Creation-Date: 2023-07-15 18:48+0300\n"
+"PO-Revision-Date: 2023-07-15 18:51+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ifolders.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/App.php:286
+#, php-format
+msgid ""
+"Thanks for start using the iFolders plugin. Let's create first folders. %s"
+msgstr ""
+"Obrigado por começar a usar o plugin iFolders. Vamos criar as primeiras "
+"pastas. %s"
+
+#: includes/App.php:287
+msgid "Go to WordPress Media Library."
+msgstr "Vá para WordPress Media Library."
+
+#: includes/App.php:348 includes/App.php:2332 includes/App.php:2347
+msgid "The operation completed successfully"
+msgstr "A operação foi concluída com êxito"
+
+#: includes/App.php:349 includes/App.php:2335 includes/App.php:2350
+msgid "The operation failed"
+msgstr "A operação falhou"
+
+#: includes/App.php:350
+msgid "Upgrade to PRO and unlock all features"
+msgstr "Atualize para PRO e desbloqueie todos os recursos"
+
+#: includes/App.php:351
+msgid "Parent Folder"
+msgstr "Pasta Principal"
+
+#: includes/App.php:355
+msgid "The license is already registered for other domain"
+msgstr "A licença já está registrada para outro domínio"
+
+#: includes/App.php:356
+msgid "Failed to connect to license server"
+msgstr "Falha ao se conectar ao servidor de licenças"
+
+#: includes/App.php:357
+msgid "The personal token is invalid or has been deleted"
+msgstr "O token pessoal é inválido ou foi excluído"
+
+#: includes/App.php:358
+msgid ""
+"The personal token is missing the required permission for license server"
+msgstr ""
+"O token pessoal está faltando a permissão necessária para o servidor de "
+"licenças"
+
+#: includes/App.php:359
+msgid "Invalid purchase code"
+msgstr "Código de compra inválido"
+
+#: includes/App.php:360
+msgid "Something goes wrong, try again shortly"
+msgstr "Algo dá errado, tente novamente em breve"
+
+#: includes/App.php:361
+msgid "Parsing error, try again shortly"
+msgstr "Erro de análise, tente novamente em breve"
+
+#: includes/App.php:362
+msgid "Error updating license data"
+msgstr "Erro ao atualizar dados de licença"
+
+#: includes/App.php:1033
+msgid "Color"
+msgstr "Cor"
+
+#: includes/App.php:1039
+msgid "Rename"
+msgstr "Renomear"
+
+#: includes/App.php:1045
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: includes/App.php:1051 templates/modal-group.php:43 templates/sidebar.php:103
+msgid "Delete"
+msgstr "Excluir"
+
+#: includes/App.php:1199
+msgid "You do not have permissions to duplicate folders"
+msgstr "Você não tem permissões para pastas duplicadas"
+
+#: includes/App.php:1358
+msgid "You do not have permissions to move folders"
+msgstr "Você não tem permissões para mover pastas"
+
+#: includes/App.php:1416
+msgid "You do not have permissions to attach items to a folder"
+msgstr "Você não tem permissões para anexar itens a uma pasta"
+
+#: includes/App.php:2147
+msgid "Cannot create: item with the same folder type already exists."
+msgstr "Não é possível criar: item com o mesmo tipo de pasta já existe."
+
+#: includes/App.php:2210
+msgid "Cannot update: item with the same folder type already exists."
+msgstr "Não é possível atualizar: item com o mesmo tipo de pasta já existe."
+
+#: templates/feedback.php:6
+msgid "I do not need this plugin anymore"
+msgstr "Eu não preciso mais deste plugin"
+
+#: templates/feedback.php:9
+msgid "I found another plugin that do the job better"
+msgstr "Encontrei outro plugin que faz o trabalho melhor"
+
+#: templates/feedback.php:10
+msgid "Please tell us which one"
+msgstr "Por favor, diga-nos qual"
+
+#: templates/feedback.php:13
+msgid "I don't know how to use it"
+msgstr "Eu não sei como usá-lo"
+
+#: templates/feedback.php:16
+msgid "This's temporary deactivation"
+msgstr "Esta é a desativação temporária"
+
+#: templates/feedback.php:19
+msgid "It's not working on my website"
+msgstr "Não está funcionando no meu site."
+
+#: templates/feedback.php:22
+msgid "Other"
+msgstr "Outro"
+
+#: templates/feedback.php:23
+msgid "Please share a reason..."
+msgstr "Compartilhe um Motivo..."
+
+#: templates/feedback.php:30
+msgid "Quick Feedback"
+msgstr "Feedback rápido"
+
+#: templates/feedback.php:34
+msgid ""
+"Before you deactivate iFolders could you let us know why? Your feedback will "
+"help us improve the product, please tell us why did you decide to deactivate "
+"iFolders. Thank you!"
+msgstr ""
+"Antes de desativar o iFolders, você poderia nos informar por quê? Seus "
+"comentários nos ajudarão a melhorar o produto, por favor, diga-nos por que "
+"você decidiu desativar o iFolders. Obrigado!"
+
+#: templates/feedback.php:50
+msgid "Skip & Deactivate"
+msgstr "Pular e desativar"
+
+#: templates/feedback.php:51
+msgid "Submit & Deactivate"
+msgstr "Enviar & Desativar"
+
+#: templates/modal-confirm-delete.php:7
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: templates/modal-confirm-delete.php:12
+msgid "Are you sure you want to delete {{Modal.data.count}} items?"
+msgstr "Tem certeza de que deseja excluir itens {{Modal.data.count}}?"
+
+#: templates/modal-confirm-delete.php:15 templates/modal-foldertype.php:61
+#: templates/modal-group.php:71 templates/modal-groups.php:49
+#: templates/modal-posttypes.php:26 templates/modal-users.php:51
+#: templates/sidebar.php:44 templates/sidebar.php:79 templates/sidebar.php:102
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: templates/modal-confirm-delete.php:16
+msgid "Ok"
+msgstr "Ok"
+
+#: templates/modal-foldertype.php:7 templates/settings.php:297
+msgid "Folder Type"
+msgstr "Tipo de pasta"
+
+#: templates/modal-foldertype.php:13
+msgid "Title"
+msgstr "Título"
+
+#: templates/modal-foldertype.php:16 templates/modal-group.php:16
+#: templates/settings.php:138 templates/settings.php:199
+msgid "Enabled"
+msgstr "Ativado"
+
+#: templates/modal-foldertype.php:19
+msgid ""
+"To enable the folder manager for a custom post type, enter its identifier "
+"below."
+msgstr ""
+"Para habilitar o gerenciador de pastas para um tipo de postagem "
+"personalizado, digite seu identificador abaixo."
+
+#: templates/modal-foldertype.php:21
+msgid "Custom Post Type"
+msgstr "Tipo de Post Personalizado"
+
+#: templates/modal-foldertype.php:23 templates/modal-groups.php:50
+msgid "Select"
+msgstr "Selecionar"
+
+#: templates/modal-foldertype.php:27
+msgid "Add or delete a group for access to this folder type"
+msgstr "Adicionar ou excluir um grupo para acesso a esse tipo de pasta"
+
+#: templates/modal-foldertype.php:30
+msgid "Add groups"
+msgstr "Adicionar grupos"
+
+#: templates/modal-foldertype.php:33
+msgid "Delete selected groups"
+msgstr "Excluir grupos selecionados"
+
+#: templates/modal-foldertype.php:44 templates/modal-groups.php:33
+#: templates/settings.php:137
+msgid "Group Name"
+msgstr "Nome do Grupo"
+
+#: templates/modal-foldertype.php:62 templates/modal-group.php:72
+#: templates/settings.php:95
+msgid "Save"
+msgstr "Salvar"
+
+#: templates/modal-group.php:7
+msgid "User Group"
+msgstr "Grupo"
+
+#: templates/modal-group.php:13
+msgid "Group name"
+msgstr "Nome do grupo"
+
+#: templates/modal-group.php:20
+msgid "Shared (users of this group will see each other's folders)"
+msgstr "Compartilhado (os usuários desse grupo verão as pastas uns dos outros)"
+
+#: templates/modal-group.php:22
+msgid "Add a user to the group and set rights."
+msgstr "Adicione um usuário ao grupo e defina direitos."
+
+#: templates/modal-group.php:25
+msgid "Add user"
+msgstr "Adicionar usuário"
+
+#: templates/modal-group.php:28
+msgid "Delete selected users"
+msgstr "Excluir usuários selecionados"
+
+#: templates/modal-group.php:39 templates/modal-users.php:35
+#: templates/settings.php:241
+msgid "User"
+msgstr "Usuário"
+
+#: templates/modal-group.php:40 templates/sidebar.php:45
+msgid "Create"
+msgstr "Criar"
+
+#: templates/modal-group.php:41
+msgid "View"
+msgstr "Ver"
+
+#: templates/modal-group.php:42
+msgid "Edit"
+msgstr "Editar"
+
+#: templates/modal-group.php:44
+msgid "Attach"
+msgstr "Anexar"
+
+#: templates/modal-groups.php:7
+msgid "Groups"
+msgstr "Grupos"
+
+#: templates/modal-posttypes.php:7
+msgid "Post Types"
+msgstr "Tipos de Post"
+
+#: templates/modal-posttypes.php:27 templates/modal-users.php:52
+#: templates/sidebar.php:80
+msgid "Submit"
+msgstr "Enviar"
+
+#: templates/modal-users.php:7
+msgid "Users"
+msgstr "Usuários"
+
+#: templates/promo.php:17
+msgid "Thanks for using our plugin!"
+msgstr "Obrigado por usar nosso plugin!"
+
+#: templates/promo.php:18
+msgid "Please rate iFolders"
+msgstr "Por favor, classifique iFolders"
+
+#: templates/promo.php:22
+msgid ""
+"Get started with the free version of our plugin, which includes full access "
+"for selected users to organize your WordPress Pages list and Media library. "
+"For even more functionality, get the full power with the Pro version! "
+"Upgrade today and take your website to the next level!"
+msgstr ""
+"Comece com a versão gratuita do nosso plugin, que inclui acesso total para "
+"usuários selecionados para organizar sua lista de Páginas WordPress e "
+"biblioteca de mídia. Para ainda mais funcionalidades, obtenha todo o poder "
+"com a versão Pro! Atualize hoje e leve seu site para o próximo nível!"
+
+#: templates/promo.php:24 templates/stub.php:7
+msgid "Buy Now"
+msgstr "Comprar Agora"
+
+#: templates/settings.php:8
+msgid "iFolders Settings"
+msgstr "Configurações do iFolders"
+
+#: templates/settings.php:12
+msgid "General"
+msgstr "Geral"
+
+#: templates/settings.php:13
+msgid "Permissions"
+msgstr "Permissões"
+
+#: templates/settings.php:14
+msgid "Data"
+msgstr "Dados"
+
+#: templates/settings.php:19
+msgid "Plugin Options"
+msgstr "Opções do Plugin"
+
+#: templates/settings.php:20
+msgid "Use this section to set main plugin options."
+msgstr "Use esta seção para definir as principais opções de plug-in."
+
+#: templates/settings.php:24
+msgid "Purchase Code"
+msgstr "Código de Compra"
+
+#: templates/settings.php:29
+msgid "Activate License"
+msgstr "Ativar Licença"
+
+#: templates/settings.php:30
+msgid "Deactivate License"
+msgstr "Desativar Licença"
+
+#: templates/settings.php:44
+msgid "The license is active and valid for this domain"
+msgstr "A licença é ativa e válida para este domínio"
+
+#: templates/settings.php:60
+msgid "Access roles"
+msgstr "Funções de acesso"
+
+#: templates/settings.php:62
+msgid "Only selected user roles have access to the folders"
+msgstr "Somente as funções de usuário selecionadas têm acesso às pastas"
+
+#: templates/settings.php:63
+msgid ""
+"(these are general settings, use the \"permissions\" tab to give the final "
+"rights to users)"
+msgstr ""
+"(estas são configurações gerais, use a guia \"permissões\" para dar os "
+"direitos finais aos usuários)"
+
+#: templates/settings.php:68
+msgid "Default folder color"
+msgstr "Cor da pasta padrão"
+
+#: templates/settings.php:74
+msgid "Disable folder counter"
+msgstr "Desativar contador de pastas"
+
+#: templates/settings.php:76
+msgid "Disable showing number of items in each folder"
+msgstr "Desativar a exibição do número de itens em cada pasta"
+
+#: templates/settings.php:80
+msgid "Disable ajax refresh"
+msgstr "Desativar atualização ajax"
+
+#: templates/settings.php:82
+msgid "Disable ajax refresh in list view"
+msgstr "Desabilitar a atualização do ajax no modo de exibição de lista"
+
+#: templates/settings.php:83
+msgid ""
+"(set when you experience problems using plugins alongside iFolders that "
+"alter the media library list view)"
+msgstr ""
+"(definido quando você tiver problemas ao usar plug-ins ao lado de iFolders "
+"que alteram a exibição da lista da biblioteca de mídia)"
+
+#: templates/settings.php:87
+msgid "Infinite scrolling"
+msgstr "Rolagem infinita"
+
+#: templates/settings.php:89
+msgid ""
+"Enable the media library infinite scrolling instead of the \"load more\" "
+"button"
+msgstr ""
+"Habilite a rolagem infinita da biblioteca de mídia em vez do botão "
+"\"carregar mais\""
+
+#: templates/settings.php:104
+msgid "User Groups"
+msgstr "Grupos de usuários"
+
+#: templates/settings.php:105
+msgid ""
+"Use this section to create and manage user groups. Within a group, you can "
+"set permissions for each user to work with folders (create, view, edit, "
+"delete, and attach)."
+msgstr ""
+"Use esta seção para criar e gerenciar grupos de usuários. Em um grupo, você "
+"pode definir permissões para cada usuário trabalhar com pastas (criar, "
+"exibir, editar, excluir e anexar)."
+
+#: templates/settings.php:108
+msgid "Add user group"
+msgstr "Adicionar grupo de usuários"
+
+#: templates/settings.php:111
+msgid "Edit user group"
+msgstr "Editar grupo de usuários"
+
+#: templates/settings.php:114
+msgid "Delete selected user groups"
+msgstr "Excluir grupos de usuários selecionados"
+
+#: templates/settings.php:128 templates/settings.php:188
+#: templates/settings.php:233 templates/settings.php:285
+msgid "Refresh"
+msgstr "Atualizar"
+
+#: templates/settings.php:139
+msgid "Shared"
+msgstr "Compartilhado"
+
+#: templates/settings.php:140 templates/settings.php:299
+msgid "Created"
+msgstr "Criado"
+
+#: templates/settings.php:141 templates/settings.php:300
+msgid "Modified"
+msgstr "Modificado"
+
+#: templates/settings.php:164
+msgid "Folder Types"
+msgstr "Tipos de pasta"
+
+#: templates/settings.php:165
+msgid ""
+"This section presents the types of folders (media, pages, posts, etc.) "
+"supported by the plugin. In order for a user to access these folders, you "
+"must add a group in which that user will have the specified rights. Simply "
+"double-click on the folder type and add the selected group. After this "
+"action the users of this group will have access to this folder type depends "
+"on their rights."
+msgstr ""
+"Esta seção apresenta os tipos de pastas (mídia, páginas, posts, etc.) "
+"suportadas pelo plugin. Para que um usuário acesse essas pastas, você deve "
+"adicionar um grupo no qual esse usuário terá os direitos especificados. "
+"Basta clicar duas vezes no tipo de pasta e adicionar o grupo selecionado. "
+"Após esta ação os usuários deste grupo terão acesso a este tipo de pasta "
+"depende de seus direitos."
+
+#: templates/settings.php:168
+msgid "Add folder type"
+msgstr "Adicionar tipo de pasta"
+
+#: templates/settings.php:171
+msgid "Edit folder type"
+msgstr "Editar tipo de pasta"
+
+#: templates/settings.php:174
+msgid "Delete selected folder types"
+msgstr "Excluir tipos de pasta selecionados"
+
+#: templates/settings.php:197
+msgid "Folder Type Name"
+msgstr "Nome do tipo de pasta"
+
+#: templates/settings.php:198
+msgid "Attached Groups"
+msgstr "Grupos Anexados"
+
+#: templates/settings.php:218
+msgid "Users Info"
+msgstr "Informações dos usuários"
+
+#: templates/settings.php:219
+msgid ""
+"This section shows brief information on users and their access to folders."
+msgstr ""
+"Esta seção mostra breves informações sobre os usuários e seu acesso às "
+"pastas."
+
+#: templates/settings.php:242
+msgid "Access To"
+msgstr "Acesso A"
+
+#: templates/settings.php:265
+msgid "All Folders"
+msgstr "Todas as Pastas"
+
+#: templates/settings.php:266
+msgid ""
+"Use this section to view all existed folders and delete them if it's needed, "
+"all sub folders are also will be deleted."
+msgstr ""
+"Use esta seção para exibir todas as pastas existentes e excluí-las se for "
+"necessário, todas as subpastas também serão excluídas."
+
+#: templates/settings.php:267
+msgid "Loading data..."
+msgstr "Carregando dados..."
+
+#: templates/settings.php:294
+msgid "Folder Title"
+msgstr "Título da pasta"
+
+#: templates/settings.php:295
+msgid "Owner"
+msgstr "Proprietário"
+
+#: templates/settings.php:296
+msgid "Group"
+msgstr "Grupo"
+
+#: templates/settings.php:298
+msgid "Attachments"
+msgstr "Anexos"
+
+#: templates/settings.php:321
+msgid "Delete All Folders"
+msgstr "Excluir todas as pastas"
+
+#: templates/sidebar.php:6
+msgid "create folder"
+msgstr "criar pasta"
+
+#: templates/sidebar.php:13
+msgid "sort folder items"
+msgstr "classificar itens de pasta"
+
+#: templates/sidebar.php:22
+msgid ""
+"Click the \"Create\" button above to add your first folder, then start drag "
+"& drop items."
+msgstr ""
+"Clique no botão \"Criar\" acima para adicionar sua primeira pasta e, em "
+"seguida, comece a arrastar e soltar itens."
+
+#: templates/sidebar.php:27
+msgid "Add New Folders"
+msgstr "Adicionar novas pastas"
+
+#: templates/sidebar.php:51
+msgid "Duplicate Folder"
+msgstr "Pasta duplicada"
+
+#: templates/sidebar.php:61
+msgid ""
+"Are you sure you want to duplicate the selected folder and all subfolders?"
+msgstr ""
+"Tem certeza de que deseja duplicar a pasta selecionada e todas as subpastas?"
+
+#: templates/sidebar.php:62
+msgid ""
+"Note: all items inside those folders will not be copied to a new destination."
+msgstr ""
+"Nota: todos os itens dentro dessas pastas não serão copiados para um novo "
+"destino."
+
+#: templates/sidebar.php:67
+msgid "Source folder"
+msgstr "Pasta de origem"
+
+#: templates/sidebar.php:73
+msgid "Destination folder"
+msgstr "Pasta de destino"
+
+#: templates/sidebar.php:86
+msgid "Delete Folders"
+msgstr "Excluir Pastas"
+
+#: templates/sidebar.php:96
+msgid "Are you sure you want to delete selected folders and all subfolders?"
+msgstr ""
+"Tem certeza de que deseja excluir as pastas selecionadas e todas as "
+"subpastas?"
+
+#: templates/sidebar.php:97
+msgid "Note: all items inside those folders will not be deleted."
+msgstr "Nota: todos os itens dentro dessas pastas não serão excluídos."
+
+#: templates/sidebar.php:109
+msgid "Sort Folder Items"
+msgstr "Classificar itens de pasta"
+
+#: templates/sidebar.php:119
+msgid "By Name"
+msgstr "Por Nome"
+
+#: templates/sidebar.php:126
+msgid "By Date"
+msgstr "Por Data"
+
+#: templates/sidebar.php:133
+msgid "By Modified"
+msgstr "Por Data de Modifição"
+
+#: templates/sidebar.php:140
+msgid "By Author"
+msgstr "Por autor"
+
+#: templates/sidebar.php:161
+msgid "All items"
+msgstr "Todos Itens"
+
+#: templates/sidebar.php:173
+msgid "Uncategorized"
+msgstr "Sem categoria"
+
+#: templates/sidebar.php:180
+msgid "Enter folder name..."
+msgstr "Digite o nome da pasta..."
+
+#: templates/stub.php:5
+msgid ""
+"The folder tree feature is not available in the free version of the plugin. "
+"To access this feature and even more functionality, you will need to "
+"purchase the pro version."
+msgstr ""
+"O recurso de árvore de pastas não está disponível na versão gratuita do "
+"plugin. Para acessar esse recurso e ainda mais funcionalidades, você "
+"precisará adquirir a versão pro."
+
+#. Plugin Name of the plugin/theme
+msgid "iFolders"
+msgstr "iFolders"
+
+#. Plugin URI of the plugin/theme
+msgid "https://1.envato.market/getifolders"
+msgstr "https://1.envato.market/getifolders"
+
+#. Description of the plugin/theme
+msgid ""
+"A better way to organize WordPress media library, posts, pages, users & "
+"custom post types in a logical way. Just drag & drop items into folders you "
+"and use them easely."
+msgstr ""
+"Uma maneira melhor de organizar a biblioteca de mídia WordPress, posts, "
+"páginas, usuários e tipos de post personalizados de uma maneira lógica. "
+"Basta arrastar & soltar itens em pastas você e usá-los facilmente."
+
+#. Author of the plugin/theme
+msgid "Avirtum"
+msgstr "Avirtum"
+
+#. Author URI of the plugin/theme
+msgid "https://1.envato.market/avirtum"
+msgstr "https://1.envato.market/avirtum"
